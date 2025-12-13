@@ -196,3 +196,37 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.results-display {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Optional: gap between rows (items) */
+    border: 1px solid #ccc;
+    padding: 10px;  
+}
+
+.result-group {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 10px;  
+}
+
+.dice-display {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 5px;
+    border-radius: 10px;
+    
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+    .dice-char {
+        font-size: 170%;
+        font-weight: bold;
+    }
+}
