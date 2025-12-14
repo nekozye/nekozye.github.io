@@ -1,7 +1,40 @@
-body{
-    caret-color: transparent;
+html{
+     height: 100%;
 }
 
+body{
+    caret-color: transparent;
+    height:100%;
+    border:0;
+}
+
+.dice-roller{
+    height:35%;
+    margin:0;
+}
+
+.result-shower{
+    height:65%;
+    margin:0;
+    width: 100%;
+}
+
+
+.results-display {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; /* Optional: gap between rows (items) */
+    border: 1px solid #ccc;
+    padding: 10px; 
+    height:100%; 
+    width: 100%-10px;
+    align-content: flex-start;
+}
+
+.results-scroll {
+    overflow-y:scroll;
+    max-height: 100%;
+}
 
 .dice-container {
     display: flex;
@@ -195,14 +228,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-.results-display {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px; /* Optional: gap between rows (items) */
-    border: 1px solid #ccc;
-    padding: 10px;  
 }
 
 .result-group {

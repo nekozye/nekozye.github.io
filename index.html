@@ -9,29 +9,31 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-
-    <div class="dice-container constant-dices">
+    <div class="dice-roller">
+        <div class="dice-container constant-dices">
+        </div>
+        <p></p>
+        <div class="dice-container numerical-dices">
+        </div>
+        <p></p>
+        <div class="dice-container operator-dices">
+        </div>
+        <p></p>
+        <div>
+            Enable Advanced Diceset (Fractions and Factorials)
+            <label class="switch">
+                <input type="checkbox" class="toggle-highgrade">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <p></p>
+        <button type="button" class="btn-roll-dice">Roll Dice</button>
     </div>
-    <p></p>
-    <div class="dice-container numerical-dices">
-    </div>
-    <p></p>
-    <div class="dice-container operator-dices">
-    </div>
-    <p></p>
-    <div>
-        Enable Advanced Diceset (Fractions and Factorials)
-        <label class="switch">
-            <input type="checkbox" class="toggle-highgrade">
-            <span class="slider round"></span>
-        </label>
-    </div>
-    <p></p>
-    <button type="button" class="btn-roll-dice">Roll Dice</button>
-    <p></p>
-    <div class="results-display">
-        <div class="results-title"> Results </div>
-        <div class="results-scroll"></div>
+    <div class="result-shower">
+        <div class="results-display">
+            <div class="results-title"> Results </div>
+            <div class="results-scroll"></div>
+        </div>
     </div>
 </body>
 </html>
