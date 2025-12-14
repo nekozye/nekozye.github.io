@@ -14,7 +14,7 @@ body{
 }
 
 .result-shower{
-    height:65%;
+    height:61%;
     margin:0;
     width: 100%;
 }
@@ -26,8 +26,7 @@ body{
     gap: 10px; /* Optional: gap between rows (items) */
     border: 1px solid #ccc;
     padding: 10px; 
-    height:100%; 
-    width: 100%-10px;
+    height:100%;
     align-content: flex-start;
 }
 
