@@ -250,7 +250,7 @@ getRandomOperatorDiceSet(operatorDiceContainers, false);
 
 const btnRollDice = document.querySelector(".btn-roll-dice");
 
-const dice_result_holder = document.querySelector(".results-scrollable");
+const dice_result_holder = document.querySelector(".results-scroll");
 
 btnRollDice.addEventListener("click", () => {
 
